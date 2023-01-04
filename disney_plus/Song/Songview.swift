@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Songview: View {
     @State private var items=[more]()
+    @State private var wrong=false
     let songs:EachSongdata
     var body: some View {
             List{
@@ -31,6 +32,9 @@ struct Songview: View {
             .navigationBarTitleDisplayMode(.inline)
             .scrollContentBackground(.hidden)
             .background(Color.pink.opacity(0.3))
+            .alert("No WIFI!", isPresented: $wrong) {
+                Button("OK"){}
+            }
         }
     
     func fetchItems(term:String){
@@ -46,9 +50,11 @@ struct Songview: View {
                         items = song.results
                     }catch{
                         print(error)
+                        wrong=true
                     }
                 }else if let error{
                     print(error)
+                    wrong=true
                 }
             }.resume()
         }
