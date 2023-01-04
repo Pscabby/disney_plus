@@ -11,7 +11,7 @@ import SwiftUI
 struct disney_plusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignUp()
         }
     }
 }

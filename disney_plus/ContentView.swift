@@ -6,21 +6,37 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct ContentView: View {
+    @StateObject private var order = Order()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView{
+            movielist()
+                .tabItem {
+                    Label("Song", systemImage: "music.note.list")
+                }
+            DollsView()
+                .tabItem {
+                    Label("Buy", systemImage: "cart")
+                }
+            OrderView()
+                .tabItem {
+                    Label("Order", systemImage: "basket")
+                }
+            QRcode()
+                .tabItem {
+                    Label("QRcode", systemImage: "qrcode.viewfinder")
+                }
+        }.environmentObject(order)
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+        }
     }
 }

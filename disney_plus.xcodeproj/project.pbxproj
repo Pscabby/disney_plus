@@ -7,18 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28387E8B294E2C2100ECDAAD /* Imagine Serif Stamp Rough.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28387E8A294E2C2100ECDAAD /* Imagine Serif Stamp Rough.otf */; };
+		28387E93294E390F00ECDAAD /* moviedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E92294E390F00ECDAAD /* moviedata.swift */; };
+		28387E95294E398700ECDAAD /* movierow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E94294E398700ECDAAD /* movierow.swift */; };
+		28387E97294E3A8700ECDAAD /* movielist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E96294E3A8700ECDAAD /* movielist.swift */; };
+		28387E99294E3ABD00ECDAAD /* meriandlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E98294E3ABD00ECDAAD /* meriandlist.swift */; };
+		28387E9B294E3B3100ECDAAD /* Elsalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E9A294E3B3100ECDAAD /* Elsalist.swift */; };
+		28387E9D294E3B5500ECDAAD /* Bellelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E9C294E3B5500ECDAAD /* Bellelist.swift */; };
+		28387E9F294E3D4F00ECDAAD /* EachSongdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387E9E294E3D4F00ECDAAD /* EachSongdata.swift */; };
+		28387EA1294E410200ECDAAD /* Cocolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EA0294E410200ECDAAD /* Cocolist.swift */; };
+		28387EA3294E41CD00ECDAAD /* lionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EA2294E41CD00ECDAAD /* lionlist.swift */; };
+		28387EA7294F196700ECDAAD /* CreatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EA6294F196700ECDAAD /* CreatUser.swift */; };
+		28387EA9294F256500ECDAAD /* ConfirmUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EA8294F256500ECDAAD /* ConfirmUser.swift */; };
+		28387EAB294F2CFF00ECDAAD /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EAA294F2CFF00ECDAAD /* SignUp.swift */; };
+		28387EAD294F357600ECDAAD /* DollsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387EAC294F357600ECDAAD /* DollsRow.swift */; };
+		28387ED52952E3BA00ECDAAD /* buydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387ED42952E3BA00ECDAAD /* buydata.swift */; };
+		28387ED929536B2500ECDAAD /* SugarRush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28387ED829536B2500ECDAAD /* SugarRush.ttf */; };
+		28387EDB29536B3800ECDAAD /* Kindegarten.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28387EDA29536B3800ECDAAD /* Kindegarten.otf */; };
+		28387EDD29536B4B00ECDAAD /* Genre Line Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28387EDC29536B4B00ECDAAD /* Genre Line Demo.ttf */; };
+		28387EDF29536B5D00ECDAAD /* FridayNight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28387EDE29536B5D00ECDAAD /* FridayNight.ttf */; };
+		2881096529617EDC000EBC33 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881096429617EDC000EBC33 /* BuyView.swift */; };
+		2881096729643BED000EBC33 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881096629643BED000EBC33 /* OrderView.swift */; };
+		2881096929643F17000EBC33 /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881096829643F17000EBC33 /* OrderRow.swift */; };
+		2881096C296467C6000EBC33 /* Loving Moment.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2881096B296467C6000EBC33 /* Loving Moment.otf */; };
+		2881096E296468F1000EBC33 /* Handodle-rg38A.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2881096D296468F1000EBC33 /* Handodle-rg38A.ttf */; };
+		2881097029646900000EBC33 /* LoveFairy-RpXw6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2881096F29646900000EBC33 /* LoveFairy-RpXw6.ttf */; };
+		2881097429647CED000EBC33 /* TotalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881097329647CED000EBC33 /* TotalData.swift */; };
+		2881097829648B57000EBC33 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881097729648B57000EBC33 /* OrderData.swift */; };
+		2881097C29654239000EBC33 /* QRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881097B29654239000EBC33 /* QRcode.swift */; };
+		28A1AEC7294DC8760004BB11 /* DollsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1AEC6294DC8760004BB11 /* DollsView.swift */; };
+		28A1AEC9294DD4950004BB11 /* Dollsdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1AEC8294DD4950004BB11 /* Dollsdata.swift */; };
+		28CF84922945D84E007E13CB /* Songview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF84912945D84E007E13CB /* Songview.swift */; };
+		28CF84962945D946007E13CB /* Songdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF84952945D946007E13CB /* Songdata.swift */; };
+		28CF84982949C05E007E13CB /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF84972949C05E007E13CB /* SongRow.swift */; };
+		28CF849C294CA721007E13CB /* Songplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF849B294CA721007E13CB /* Songplay.swift */; };
+		28CF849E294CBE6C007E13CB /* demoplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF849D294CBE6C007E13CB /* demoplay.swift */; };
+		28CF84A0294CD800007E13CB /* Travel October.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CF849F294CD800007E13CB /* Travel October.ttf */; };
 		28EDF421293F8D240088531F /* disney_plusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF420293F8D240088531F /* disney_plusApp.swift */; };
 		28EDF423293F8D240088531F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF422293F8D240088531F /* ContentView.swift */; };
 		28EDF425293F8D270088531F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EDF424293F8D270088531F /* Assets.xcassets */; };
 		28EDF428293F8D270088531F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EDF427293F8D270088531F /* Preview Assets.xcassets */; };
+		28EDF43129407E140088531F /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDF43029407E140088531F /* login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28387E8A294E2C2100ECDAAD /* Imagine Serif Stamp Rough.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Imagine Serif Stamp Rough.otf"; sourceTree = "<group>"; };
+		28387E92294E390F00ECDAAD /* moviedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviedata.swift; sourceTree = "<group>"; };
+		28387E94294E398700ECDAAD /* movierow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movierow.swift; sourceTree = "<group>"; };
+		28387E96294E3A8700ECDAAD /* movielist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movielist.swift; sourceTree = "<group>"; };
+		28387E98294E3ABD00ECDAAD /* meriandlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meriandlist.swift; sourceTree = "<group>"; };
+		28387E9A294E3B3100ECDAAD /* Elsalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elsalist.swift; sourceTree = "<group>"; };
+		28387E9C294E3B5500ECDAAD /* Bellelist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bellelist.swift; sourceTree = "<group>"; };
+		28387E9E294E3D4F00ECDAAD /* EachSongdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachSongdata.swift; sourceTree = "<group>"; };
+		28387EA0294E410200ECDAAD /* Cocolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocolist.swift; sourceTree = "<group>"; };
+		28387EA2294E41CD00ECDAAD /* lionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lionlist.swift; sourceTree = "<group>"; };
+		28387EA6294F196700ECDAAD /* CreatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatUser.swift; sourceTree = "<group>"; };
+		28387EA8294F256500ECDAAD /* ConfirmUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmUser.swift; sourceTree = "<group>"; };
+		28387EAA294F2CFF00ECDAAD /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		28387EAC294F357600ECDAAD /* DollsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollsRow.swift; sourceTree = "<group>"; };
+		28387ED42952E3BA00ECDAAD /* buydata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buydata.swift; sourceTree = "<group>"; };
+		28387ED829536B2500ECDAAD /* SugarRush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SugarRush.ttf; sourceTree = "<group>"; };
+		28387EDA29536B3800ECDAAD /* Kindegarten.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kindegarten.otf; sourceTree = "<group>"; };
+		28387EDC29536B4B00ECDAAD /* Genre Line Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Genre Line Demo.ttf"; sourceTree = "<group>"; };
+		28387EDE29536B5D00ECDAAD /* FridayNight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FridayNight.ttf; sourceTree = "<group>"; };
+		2881096429617EDC000EBC33 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		2881096629643BED000EBC33 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2881096829643F17000EBC33 /* OrderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRow.swift; sourceTree = "<group>"; };
+		2881096B296467C6000EBC33 /* Loving Moment.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Loving Moment.otf"; sourceTree = "<group>"; };
+		2881096D296468F1000EBC33 /* Handodle-rg38A.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Handodle-rg38A.ttf"; sourceTree = "<group>"; };
+		2881096F29646900000EBC33 /* LoveFairy-RpXw6.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LoveFairy-RpXw6.ttf"; sourceTree = "<group>"; };
+		2881097329647CED000EBC33 /* TotalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalData.swift; sourceTree = "<group>"; };
+		2881097729648B57000EBC33 /* OrderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		2881097B29654239000EBC33 /* QRcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcode.swift; sourceTree = "<group>"; };
+		28A1AEC6294DC8760004BB11 /* DollsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollsView.swift; sourceTree = "<group>"; };
+		28A1AEC8294DD4950004BB11 /* Dollsdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollsdata.swift; sourceTree = "<group>"; };
+		28CF84912945D84E007E13CB /* Songview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songview.swift; sourceTree = "<group>"; };
+		28CF84952945D946007E13CB /* Songdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songdata.swift; sourceTree = "<group>"; };
+		28CF84972949C05E007E13CB /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		28CF849B294CA721007E13CB /* Songplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songplay.swift; sourceTree = "<group>"; };
+		28CF849D294CBE6C007E13CB /* demoplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoplay.swift; sourceTree = "<group>"; };
+		28CF849F294CD800007E13CB /* Travel October.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Travel October.ttf"; sourceTree = "<group>"; };
+		28CF84A1294CD87B007E13CB /* disney-plus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "disney-plus-Info.plist"; sourceTree = SOURCE_ROOT; };
 		28EDF41D293F8D240088531F /* disney_plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disney_plus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EDF420293F8D240088531F /* disney_plusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disney_plusApp.swift; sourceTree = "<group>"; };
 		28EDF422293F8D240088531F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28EDF424293F8D270088531F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28EDF427293F8D270088531F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28EDF43029407E140088531F /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +107,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28387E8C294E2C2900ECDAAD /* font */ = {
+			isa = PBXGroup;
+			children = (
+				28CF849F294CD800007E13CB /* Travel October.ttf */,
+				28387ED829536B2500ECDAAD /* SugarRush.ttf */,
+				28387EDC29536B4B00ECDAAD /* Genre Line Demo.ttf */,
+				28387EDE29536B5D00ECDAAD /* FridayNight.ttf */,
+				2881096D296468F1000EBC33 /* Handodle-rg38A.ttf */,
+				2881096F29646900000EBC33 /* LoveFairy-RpXw6.ttf */,
+				2881096B296467C6000EBC33 /* Loving Moment.otf */,
+				28387EDA29536B3800ECDAAD /* Kindegarten.otf */,
+				28387E8A294E2C2100ECDAAD /* Imagine Serif Stamp Rough.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		28387E8F294E385600ECDAAD /* movie */ = {
+			isa = PBXGroup;
+			children = (
+				28387E92294E390F00ECDAAD /* moviedata.swift */,
+				28387E94294E398700ECDAAD /* movierow.swift */,
+				28387E96294E3A8700ECDAAD /* movielist.swift */,
+				28387E98294E3ABD00ECDAAD /* meriandlist.swift */,
+				28387EA0294E410200ECDAAD /* Cocolist.swift */,
+				28387E9A294E3B3100ECDAAD /* Elsalist.swift */,
+				28387E9C294E3B5500ECDAAD /* Bellelist.swift */,
+				28387EA2294E41CD00ECDAAD /* lionlist.swift */,
+			);
+			path = movie;
+			sourceTree = "<group>";
+		};
+		2881096A29646094000EBC33 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				2881096829643F17000EBC33 /* OrderRow.swift */,
+				2881097329647CED000EBC33 /* TotalData.swift */,
+				2881096629643BED000EBC33 /* OrderView.swift */,
+				2881097729648B57000EBC33 /* OrderData.swift */,
+				28387ED42952E3BA00ECDAAD /* buydata.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		2881097F296543FB000EBC33 /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				2881097B29654239000EBC33 /* QRcode.swift */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		28A1AEC5294DC8500004BB11 /* Dolls */ = {
+			isa = PBXGroup;
+			children = (
+				28A1AEC6294DC8760004BB11 /* DollsView.swift */,
+				28387EAC294F357600ECDAAD /* DollsRow.swift */,
+				2881096429617EDC000EBC33 /* BuyView.swift */,
+				28A1AEC8294DD4950004BB11 /* Dollsdata.swift */,
+			);
+			path = Dolls;
+			sourceTree = "<group>";
+		};
+		28A1AECA294DDEF00004BB11 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				28387EAA294F2CFF00ECDAAD /* SignUp.swift */,
+				28387EA6294F196700ECDAAD /* CreatUser.swift */,
+				28EDF43029407E140088531F /* login.swift */,
+				28387EA8294F256500ECDAAD /* ConfirmUser.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		28CF84992949C0D2007E13CB /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				28CF84952945D946007E13CB /* Songdata.swift */,
+				28387E9E294E3D4F00ECDAAD /* EachSongdata.swift */,
+				28CF849B294CA721007E13CB /* Songplay.swift */,
+				28CF84912945D84E007E13CB /* Songview.swift */,
+				28CF84972949C05E007E13CB /* SongRow.swift */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
 		28EDF414293F8D240088531F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +211,16 @@
 		28EDF41F293F8D240088531F /* disney_plus */ = {
 			isa = PBXGroup;
 			children = (
+				28CF84A1294CD87B007E13CB /* disney-plus-Info.plist */,
 				28EDF420293F8D240088531F /* disney_plusApp.swift */,
 				28EDF422293F8D240088531F /* ContentView.swift */,
+				2881097F296543FB000EBC33 /* QRcode */,
+				2881096A29646094000EBC33 /* Order */,
+				28387E8F294E385600ECDAAD /* movie */,
+				28A1AECA294DDEF00004BB11 /* login */,
+				28A1AEC5294DC8500004BB11 /* Dolls */,
+				28CF84992949C0D2007E13CB /* Song */,
+				28387E8C294E2C2900ECDAAD /* font */,
 				28EDF424293F8D270088531F /* Assets.xcassets */,
 				28EDF426293F8D270088531F /* Preview Content */,
 			);
@@ -63,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				28EDF427293F8D270088531F /* Preview Assets.xcassets */,
+				28CF849D294CBE6C007E13CB /* demoplay.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,8 +294,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28387ED929536B2500ECDAAD /* SugarRush.ttf in Resources */,
 				28EDF428293F8D270088531F /* Preview Assets.xcassets in Resources */,
+				28387EDD29536B4B00ECDAAD /* Genre Line Demo.ttf in Resources */,
+				28387EDB29536B3800ECDAAD /* Kindegarten.otf in Resources */,
+				28387EDF29536B5D00ECDAAD /* FridayNight.ttf in Resources */,
+				2881096C296467C6000EBC33 /* Loving Moment.otf in Resources */,
+				2881097029646900000EBC33 /* LoveFairy-RpXw6.ttf in Resources */,
+				28387E8B294E2C2100ECDAAD /* Imagine Serif Stamp Rough.otf in Resources */,
 				28EDF425293F8D270088531F /* Assets.xcassets in Resources */,
+				28CF84A0294CD800007E13CB /* Travel October.ttf in Resources */,
+				2881096E296468F1000EBC33 /* Handodle-rg38A.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +315,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28387E99294E3ABD00ECDAAD /* meriandlist.swift in Sources */,
+				2881097C29654239000EBC33 /* QRcode.swift in Sources */,
+				2881096729643BED000EBC33 /* OrderView.swift in Sources */,
+				28387E93294E390F00ECDAAD /* moviedata.swift in Sources */,
+				28387ED52952E3BA00ECDAAD /* buydata.swift in Sources */,
+				2881097429647CED000EBC33 /* TotalData.swift in Sources */,
+				28387EA9294F256500ECDAAD /* ConfirmUser.swift in Sources */,
+				28387EAB294F2CFF00ECDAAD /* SignUp.swift in Sources */,
+				2881096929643F17000EBC33 /* OrderRow.swift in Sources */,
+				28CF84982949C05E007E13CB /* SongRow.swift in Sources */,
+				28387EA1294E410200ECDAAD /* Cocolist.swift in Sources */,
+				28387E9F294E3D4F00ECDAAD /* EachSongdata.swift in Sources */,
+				28CF849E294CBE6C007E13CB /* demoplay.swift in Sources */,
+				28387EAD294F357600ECDAAD /* DollsRow.swift in Sources */,
+				28387E9B294E3B3100ECDAAD /* Elsalist.swift in Sources */,
 				28EDF423293F8D240088531F /* ContentView.swift in Sources */,
+				2881097829648B57000EBC33 /* OrderData.swift in Sources */,
+				28CF84962945D946007E13CB /* Songdata.swift in Sources */,
+				28387EA3294E41CD00ECDAAD /* lionlist.swift in Sources */,
+				28A1AEC7294DC8760004BB11 /* DollsView.swift in Sources */,
 				28EDF421293F8D240088531F /* disney_plusApp.swift in Sources */,
+				28387EA7294F196700ECDAAD /* CreatUser.swift in Sources */,
+				28CF849C294CA721007E13CB /* Songplay.swift in Sources */,
+				28387E9D294E3B5500ECDAAD /* Bellelist.swift in Sources */,
+				28387E97294E3A8700ECDAAD /* movielist.swift in Sources */,
+				28EDF43129407E140088531F /* login.swift in Sources */,
+				28387E95294E398700ECDAAD /* movierow.swift in Sources */,
+				28A1AEC9294DD4950004BB11 /* Dollsdata.swift in Sources */,
+				2881096529617EDC000EBC33 /* BuyView.swift in Sources */,
+				28CF84922945D84E007E13CB /* Songview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"disney_plus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "disney-plus-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +504,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"disney_plus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "disney-plus-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

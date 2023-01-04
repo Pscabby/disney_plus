@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "031017-beauty-and-the-beast-lead-c43ddb5da36e42cf81ea923bc178a773.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
